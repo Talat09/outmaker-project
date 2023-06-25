@@ -4,86 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.cards {
-  display: flex;
-  justify-content: center;
-}
-.arrow-icon {
-  width: 30px;
-}
-.card {
-  margin-right: 15px;
-  position: relative;
-}
-.card-img {
-  width: 726px;
-  height: 517px;
-}
-.card-title {
-  font-family: lexend Deca;
-  font-size: 30px;
-  font-weight: 700;
-}
-.card-text {
-  font-family: lexend Deca;
-  font-size: 26px;
-}
-.facebook {
-  filter: invert(50%) green(100%) saturate(500%) hue-rotate(100deg);
-}
-.arrowLeft {
-  width: 47px;
-  position: absolute;
-  left: -21px;
-  top: 200px;
-  cursor: pointer;
-}
-.arrowRight {
-  width: 47px;
-  position: absolute;
-  right: -21px;
-  top: 200px;
-  cursor: pointer;
-}
-#line {
-  width: 1590px;
-  height: 5px;
-  margin-left: 140px;
-  margin-bottom: 20px;
-  background-color: #002b5b;
-}
-.title-articles {
-  margin-left: 140px;
-  font-size: 32px;
-  font-family: Lexend Deca;
-  font-weight: 700;
-  color: #002b5b;
-}
-/* blog */
-.blog-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  width: 1036px;
-}
-.blog-section h1 {
-  font-size: 40px;
-  letter-spacing: -1.2px;
-}
-.blog-section p {
-  font-size: 28px;
-  font-family: Lexend Deca;
-  line-height: 45px;
-}
-.cover-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 62px;
-  margin-top: 62px;
-}
+/* ------------top section---------  */
 .top-section {
   margin-top: 30px;
 }
@@ -137,6 +58,88 @@
 .Pinterest-icon {
   margin-right: 45px;
 }
+/* ---------cover picture section-----------  */
+.cover-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 62px;
+  margin-top: 62px;
+}
+/* ----------blog section -------------- */
+
+.blog-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 1036px;
+}
+.blog-section h1 {
+  font-size: 40px;
+  letter-spacing: -1.2px;
+}
+.blog-section p {
+  font-size: 28px;
+  font-family: Lexend Deca;
+  line-height: 45px;
+}
+/* ---------bottom card section-----------  */
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.arrow-icon {
+  width: 30px;
+}
+.card {
+  margin-right: 15px;
+  position: relative;
+}
+.card-img {
+  width: 726px;
+  height: 517px;
+}
+.card-title {
+  font-family: lexend Deca;
+  font-size: 30px;
+  font-weight: 700;
+}
+.card-text {
+  font-family: lexend Deca;
+  font-size: 26px;
+}
+
+.arrowLeft {
+  width: 47px;
+  position: absolute;
+  left: -21px;
+  top: 200px;
+  cursor: pointer;
+}
+.arrowRight {
+  width: 47px;
+  position: absolute;
+  right: -21px;
+  top: 200px;
+  cursor: pointer;
+}
+#line {
+  width: 1590px;
+  height: 5px;
+  margin-left: 140px;
+  margin-bottom: 20px;
+  background-color: #002b5b;
+}
+.title-articles {
+  margin-left: 140px;
+  font-size: 32px;
+  font-family: Lexend Deca;
+  font-weight: 700;
+  color: #002b5b;
+}
+/*--------- Respopnsive for mobile device-------- */
 @media only screen and (max-width: 600px) {
   .cards {
     display: flex;
