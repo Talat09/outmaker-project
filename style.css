@@ -141,9 +141,6 @@
 }
 /*--------- Respopnsive for mobile device-------- */
 @media only screen and (max-width: 600px) {
-  body {
-    scroll-behavior: none;
-  }
   .top-section h1 {
     text-align: center;
     color: #002b5b;
@@ -158,6 +155,7 @@
   .card {
     margin-top: 15px;
     margin: auto;
+    overflow: hidden;
   }
   .card-img {
     width: 600px;
