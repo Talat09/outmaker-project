@@ -141,6 +141,16 @@
 }
 /*--------- Respopnsive for mobile device-------- */
 @media only screen and (max-width: 600px) {
+  body {
+    scroll-behavior: none;
+  }
+  .top-section h1 {
+    text-align: center;
+    color: #002b5b;
+    font-size: 40px;
+    font-family: Lexend Deca;
+    line-height: 60px;
+  }
   .cards {
     display: flex;
     flex-wrap: wrap;
